@@ -1,0 +1,180 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+ul[id="navbar"]{
+    list-style-type: none;
+    display:flex;
+    margin-top:20px;
+}
+ul[id="navbar"] li a{
+    text-decoration:none;
+    color:black;
+}
+ul[id="navbar"] li a:hover:not(#navtext1 a){
+    color:orangered;
+}
+#navtext1{
+    font-size:x-large;
+    font-weight:bold;
+    margin-left:20px;
+}
+#navtext2{
+    margin-left:600px;
+}
+.navtext{
+    margin-left:40px;
+}
+.btn1{
+    padding:10px;
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    border-radius:15px;
+}
+.btn1:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+}
+#subscribebtn{
+    margin-top:-10px;
+}
+#text1{
+    font-size:xxx-large;
+    text-align:center;
+    margin-top:60px;
+}
+#image1{
+    text-align:center;
+}
+#text2{
+    text-align: center;
+    width:700px;
+    margin:auto;
+    font-size:x-large;
+}
+#blackbox{
+    border:1px solid black;
+    background-color:black;
+    padding:0px;
+    height:1000px;
+    margin-top:50px;
+    padding-bottom:20px;
+}
+#greyline1{
+    border-left:1px solid lightgray;
+    height:350px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.flex{
+    display:flex;
+}
+#textbox1{
+    margin-top:50px;
+    color:white;
+    line-height: 1.6;
+    width:400px;
+}
+#textbox1_1{
+    padding-left:60px;
+}
+#textbox1_2{
+    font-size:x-large;
+    padding-left:60px;
+    border-left:4px solid whitesmoke;
+}
+#textbox2{
+    color:white;
+    width:500px;
+    line-height: 1.6;
+}
+#textbox3{
+    color:white;
+    width:500px;
+    line-height: 1.6;
+}
+#maintextbox{
+    margin-top:300px;
+}
+div[id="maintextbox"] div{
+    margin-left:100px;
+    margin-right:100px;
+}
+#textbox2_1,#textbox3_1{
+margin-bottom:50px;
+}
+#greyline2{
+    border-left:2px solid lightgray;
+    height:300px;
+    margin-left:100px;
+}
+#textbox4{
+    width:400px;
+    line-height: 1.6;
+}
+#textbox4_1{
+    margin-bottom:20px;
+    padding-left:60px;
+}
+#textbox4_2{
+    border-left:4px solid black;
+    padding-left:60px;
+    font-size:x-large;
+}
+#container1{
+    margin-top:100px;
+}
+#twotextboxes{
+    line-height: 1.6;
+    display:flex;
+}
+.textbox5{
+    margin-top:300px;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.textbox5_1{
+    margin-bottom:20px;
+    font-size:larger;
+}
+#contactpart{
+    border:1px solid white;
+    background-color:white;
+    padding:20px;
+    line-height:1.6;
+    display:flex;
+}
+.flex{
+    display:flex;
+}
+#contactpart_1{
+    font-size:x-large;
+margin-left:150px;
+margin-top:50px;
+margin-bottom:50px;
+}
+div[id="contactpart"] div div:not(#inside div){
+    margin-left:100px;
+    margin-bottom:20px;
+}
+input{
+    padding:10px;
+    border: 2px solid black;
+}
+#subscribeform{
+    margin:auto;
+}
+#inside div{
+    margin-right:20px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+#contactinfo{
+    margin:auto;
+}

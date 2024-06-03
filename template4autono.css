@@ -1,0 +1,362 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#main1{
+    background-image:url("images/template4image1.webp");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    padding:20px;
+    height:600px;
+    background-attachment:fixed;
+}
+#navtext1{
+    font-size:x-large;
+    font-weight:bold;
+}
+ul[id="navbar"]{
+    list-style-type: none;
+    display:flex;
+}
+ul[id="navbar"] li a{
+    text-decoration:none;
+    color:black;
+}
+ul[id="navbar"] li a:hover:not(#navtext1 a){
+    color:orangered;
+}
+#navtext2{
+    margin-left:600px;
+}
+.navtext{
+    margin-left:40px;
+}
+#subscribebtn{
+    padding:10px;
+    background-color:black;
+    color:white;
+    margin-top:-20px;
+    border-radius:15px;
+    border:1px solid black;
+}
+#subscribebtn:hover{
+    background-color:white;
+    color:black;
+    cursor:pointer;
+}
+#centertext1{
+    font-size:50px;
+}
+#centertext2{
+    font-size:x-large;
+}
+#centertext{
+    text-align: center;
+    position:absolute;
+    top:80px;
+    left:350px;
+}
+#blackbox{
+    border:1px solid black;
+    background-color:black;
+    color:white;
+    height:600px;
+    width:100%;
+    display:flex;
+    box-sizing: border-box;
+}
+#greyline1{
+    border-left:2px solid gray;
+    height:378px;
+    margin-top: 55px;
+    margin-left:60px;
+}
+#textbox1{
+    width:400px;
+    margin-top: 60px;
+    color:whitesmoke;
+    line-height: 1.6;
+}
+#textbox1_1{
+    margin-bottom:40px;
+    padding-left:60px;
+}
+#textbox1_2{
+    font-size:x-large;
+    margin-bottom:40px;
+    border-left:4px solid lightgray;
+    padding-left:60px;
+}
+#textbox1_3{
+    padding-left:60px;
+}
+#imagebox1{
+ margin-left:150px;
+}
+#whitebox{
+    border:1px solid white;
+    background-color:white;
+    box-sizing: border-box;
+}
+#linebox{
+    display:flex;
+}
+#greyline2{
+    border-left:2px solid lightgrey;
+    height:100px;
+    margin-left:60px;
+    margin-top:60px;
+}
+#textbox2{
+    width:300px;
+    margin-top:60px;
+    line-height: 1.6;
+}
+#textbox2_1{
+color:grey;
+padding-left:60px;
+padding-bottom:20px;
+}
+#textbox2_2{
+border-left:4px solid black;
+padding-left:60px;
+}
+#textbox3{
+    width:300px;
+    line-height:1.6;
+    margin-left:150px;
+    margin-top:120px;
+}
+.btn2{
+    padding:10px;
+    background-color:white;
+    border-radius:10px;
+    border:1px solid black;
+}
+.btn2:hover{
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
+#main2{
+    display:flex;
+}
+#imagebox2{
+    margin-left:220px;
+}
+#main3{
+    display:flex;
+}
+#textbox4{
+    width:400px;
+    line-height: 1.6;
+    margin-left:300px;
+    margin-top:10px;
+}
+#textbox4_1{
+    font-size:xxx-large;
+}
+#textbox5{
+    width:400px;
+    line-height: 1.6;
+    margin-left:160px;
+}
+#textbox5_1{
+    font-size:xxx-large;
+}
+#main4{
+    display:flex;
+}
+#main5{
+    background-image:url("images/template4image7.avif");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    height:600px;
+    padding-top:50px;
+}
+#smallblackbox{
+    border:1px solid black;
+    background-color:black;
+    width:400px;
+    height:500px;
+    border-radius:15px;
+    margin-left:60px;
+    display:flex;
+    margin-top:40px;
+}
+#greyline3{
+    border-left:1px solid lightgray;
+    height:420px;
+    margin-top:50px;
+    margin-left:10px;
+}
+#textbox6{
+    color:white;
+    line-height: 1.6;
+    width:350px;
+    padding-top:50px;
+}
+#textbox6_1{
+    margin-bottom:40px;
+    padding-left:25px;
+}
+#textbox6_2{
+    border-left:4px solid whitesmoke;
+    margin-bottom:40px;
+    padding-left:25px;
+}
+#textbox6_3{
+    padding-left:25px;
+    margin-bottom:40px;
+}
+.btn3{
+    padding:10px;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+}
+.btn3:hover{
+    background-color:White;
+    color:black;
+    cursor:pointer;
+    border: 1px solid black;
+}
+#textbox6_4{
+    margin-left:40px;
+}
+#main6{
+border:1px solid white;
+background-color:white;
+display:flex;
+}
+#fourboxes{
+    margin-top:100px;
+    margin-left:100px;
+}
+#fourboxes_1{
+    margin-top:100px;
+    display:flex;
+    font-size:xx-large;
+}
+#fourboxes_2{
+    margin-top:100px;
+    display:flex;
+    font-size:xx-large;
+}
+#main7{
+    border:1px solid black;
+    background-color:black;
+    height:950px;
+    color:whitesmoke;
+    padding-top:60px;
+}
+#greyline4{
+    border-left:1px solid lightgray;
+    height:360px;
+    margin-left:60px;
+    margin-top:60px;
+}
+#textbox7{
+    width:300px;
+    line-height: 1.6;
+    margin-top:60px;
+}
+#textbox7_1{
+font-size:small;
+margin-bottom:20px;
+padding-left:60px;
+}
+#textbox7_2{
+    border-left: 4px solid whitesmoke;
+    font-size:x-large;
+    margin-bottom:20px;
+    padding-left:60px;
+}
+#textbox7_3{
+    padding-left:60px;
+}
+
+#greyline5{
+    border-left:2px solid lightgray;
+    height:220px;
+    margin-left:80px;
+    margin-top:60px;
+}
+#textbox8{
+    width:400px;
+    line-height: 1.6;
+    margin-top:60px;
+}
+#textbox8_1{
+    padding-left:60px;
+    margin-bottom:20px;
+}
+#textbox8_2{
+    padding-left:60px;
+    border-left:4px solid whitesmoke;
+    margin-bottom:20px;
+    font-size:x-large;
+}
+#textbox8_3{
+    padding-left:60px;
+}
+#jobbox{
+    border:2px solid white;
+    width:400px;
+    height:300px;
+    line-height: 1.6;
+    padding:20px;
+    border-radius:15px;
+    margin-left:300px;
+}
+#jobbox_1{
+    margin-bottom:20px;
+}
+#jobbox_2{
+    margin-bottom:20px;
+    font-size:smaller;
+    color:grey;
+}
+#jobbox_3{
+    margin-bottom:20px;
+}
+#jobbox_4{
+}
+#contactpart{
+    border:1px solid white;
+    background-color:white;
+    padding:20px;
+    line-height:1.6;
+    display:flex;
+}
+.flex{
+    display:flex;
+}
+#contactpart_1{
+    font-size:x-large;
+margin-left:150px;
+margin-top:50px;
+margin-bottom:50px;
+}
+div[id="contactpart"] div div:not(#inside div){
+    margin-left:100px;
+    margin-bottom:20px;
+}
+input{
+    padding:10px;
+    border: 2px solid black;
+}
+#subscribeform{
+    margin-top:135px;
+    margin-left:140px;
+}
+#inside div{
+    margin-right:20px;
+}

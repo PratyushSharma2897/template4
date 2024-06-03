@@ -1,0 +1,224 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+/*Navbar start*/
+ul[id="navbar"]{
+    list-style-type: none;
+    display:flex;
+    margin-top:20px;
+}
+ul[id="navbar"] li a{
+    text-decoration:none;
+    color:black;
+}
+ul[id="navbar"] li a:hover:not(#navtext1 a){
+    color:orangered;
+}
+#navtext1{
+    font-size:x-large;
+    font-weight:bold;
+    margin-left:20px;
+}
+#navtext2{
+    margin-left:600px;
+}
+.navtext{
+    margin-left:40px;
+}
+.btn1{
+    padding:10px;
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    border-radius:15px;
+}
+.btn1:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+}
+#subscribebtn{
+    margin-top:-10px;
+}
+/*Navbar ends*/
+.centertext1{
+text-align:center;
+margin-top:25px;
+font-size:65px;
+}
+#centertext2{
+    margin-top:50px;
+    text-align:center;
+    font-size:x-large;
+    margin-bottom:200px;
+}
+#margintop{
+    margin-top:100px;
+}
+.flex{
+    display:flex;
+}
+#greyline1{
+    border-left:2px solid lightgray;
+    height:320px;
+    margin-left:50px;
+    margin-top:100px;
+}
+#textbox1{
+    line-height: 1.6;
+    margin-top:100px;
+    width:500px;
+}
+#textbox1_1{
+    padding-left:60px;
+    margin-bottom:20px;
+    font-size:small;
+}
+#textbox1_2{
+    padding-left:60px;
+    border-left:4px solid black;
+    margin-bottom:20px;
+    font-size:x-large;
+}
+#textbox1_3{
+    padding-left:60px;
+}
+#imageright1{
+    margin-top:-90px;
+    z-index: -1;
+    margin-left:250px;
+}
+#blackbox{
+    border:1px solid black;
+    background-color: black;
+}
+#greyline2{
+    border-left:2px solid lightgray;
+    height:300px;
+    margin-top: 100px;
+    margin-left:50px;
+}
+#textbox2{
+    line-height:1.6;
+    margin-top:100px;
+    color:white;
+    width:400px;
+}
+#textbox2_1{
+    padding-left:60px;
+    margin-bottom:20px;
+}
+#textbox2_2{
+    padding-left:60px;
+    border-left:4px solid whitesmoke;
+    margin-bottom:20px;
+    font-size:x-large;
+}
+#textbox2_3{
+    padding-left:60px;
+}
+#imageright2{
+    margin-top:100px;
+    margin-left:260px;
+}
+.whiteborderbox1{
+    border:1px solid #ffffff;
+    width:400px;
+    height:400px;
+    margin:auto;
+    color:white;
+    padding:30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.jobtitle1{
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.area1{
+    margin-top: 10px;
+    margin-bottom:10px;
+    color:grey;
+}
+.btn2{
+    border:1px solid white;
+    background-color:black;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+}
+.btn2:hover{
+    background-color:white;
+    color:black;
+    cursor:pointer;
+}
+.paragraph1{
+    margin-bottom:50px;
+}
+.paragragh2{
+    margin-bottom:15px;
+}
+#whitecontentbox{
+    margin-top:100px;
+    border:1px solid white;
+    background-color:white;
+    width:400px;
+    height:250px;
+    border-radius:15px;
+    margin-left:130px;
+    padding:30px;
+    box-sizing: border-box;
+    margin-bottom:100px;
+}
+.btn3{
+    background-color:white;
+    border:1px solid black;
+    color:black;
+    padding:10px;
+    border-radius:10px;
+    margin-top:50px;
+}
+.btn3:hover{
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
+#contactpart{
+    border:1px solid white;
+    background-color:white;
+    padding:20px;
+    line-height:1.6;
+    display:flex;
+}
+.flex{
+    display:flex;
+}
+#contactpart_1{
+    font-size:x-large;
+margin-left:150px;
+margin-top:50px;
+margin-bottom:50px;
+}
+div[id="contactpart"] div div:not(#inside div){
+    margin-left:100px;
+    margin-bottom:20px;
+}
+input{
+    padding:10px;
+    border: 2px solid black;
+}
+#subscribeform{
+    margin:auto;
+}
+#inside div{
+    margin-right:20px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+#contactinfo{
+    margin:auto;
+}
